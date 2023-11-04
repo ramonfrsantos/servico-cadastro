@@ -1,0 +1,12 @@
+# Server
+server:
+   port: 8088
+
+# Spring config
+spring:
+   application:
+      name: servico-cadastro
+   datasource:
+      url: jdbc:mysql://localhost:3306/servicocadastrodb?createDatabaseIfNotExist=true
+      username: root
+      password: root
